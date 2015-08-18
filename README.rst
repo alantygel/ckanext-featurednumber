@@ -1,57 +1,25 @@
-.. You should enable this project on travis-ci.org and coveralls.io to make
-   these badges work. The necessary Travis and Coverage config files have been
-   generated for you.
-
-.. image:: https://travis-ci.org/alantygel/ckanext-featurednumbers.svg?branch=master
-    :target: https://travis-ci.org/alantygel/ckanext-featurednumbers
-
-.. image:: https://coveralls.io/repos/alantygel/ckanext-featurednumbers/badge.png?branch=master
-  :target: https://coveralls.io/r/alantygel/ckanext-featurednumbers?branch=master
-
-.. image:: https://pypip.in/download/ckanext-featurednumbers/badge.svg
-    :target: https://pypi.python.org/pypi//ckanext-featurednumbers/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/ckanext-featurednumbers/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-featurednumbers/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/py_versions/ckanext-featurednumbers/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-featurednumbers/
-    :alt: Supported Python versions
-
-.. image:: https://pypip.in/status/ckanext-featurednumbers/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-featurednumbers/
-    :alt: Development Status
-
-.. image:: https://pypip.in/license/ckanext-featurednumbers/badge.svg
-    :target: https://pypi.python.org/pypi/ckanext-featurednumbers/
-    :alt: License
 
 =============
 ckanext-featurednumbers
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+Featured Numbers is a very simple plugin that displays a custom number (or a fact) on CKAN's front page and links it to the corresponding dataset, for example:
 
+805 million people were suffering from chronic undernourishment in 2012-2014 (link to UNO data)
+
+You can register several numbers, with associated description, unit, specify if the unit comes before or after the number (U$1000 or 1000km), and add a link to a dataset from where this fact comes from.
+
+The main motivation was the perception that such numbers call people's attentionand incentivates the search and use of data.
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
-
+* CKAN 2.0+
 
 ------------
 Installation
 ------------
-
-.. Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
 
 To install ckanext-featurednumbers:
 
