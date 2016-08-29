@@ -22,6 +22,10 @@ class Featurednumbers(model.DomainObject):
         return query.filter_by(**kw).first()
 
     @classmethod
+    def all(cls):
+        return Session.query(Featurednumbers)
+
+    @classmethod
     def find(cls, **kw):
         query = model.Session.query(cls).autoflush(False)
         return query.filter_by(**kw)

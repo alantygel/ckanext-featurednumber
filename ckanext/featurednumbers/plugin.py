@@ -12,7 +12,8 @@ from ckan.lib.dictization import table_dictize
 
 def get_featured_number():
     '''Returns a number, a description and the associated dataset.'''
-    r = randrange(1, 4)
+    N = db.Featurednumbers.count()
+    r = randrange(1, 8)
     return db.Featurednumbers.get(id_fn=r)
 
 class FeaturednumbersPlugin(plugins.SingletonPlugin):
